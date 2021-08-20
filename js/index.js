@@ -50,8 +50,7 @@ messageForm.addEventListener("submit", (event) => {
     messageForm.reset();
 
 });
-const githubRequest= new XMLHttpRequest();
-
+/*
 githubRequest.open("GET","https://api.github.com/users/adriana2020ca/repos" )
 githubRequest.send()
 githubRequest.addEventListener("load",function(){
@@ -64,5 +63,18 @@ githubRequest.addEventListener("load",function(){
        project.innerHTML=`<a href="${repositories[i].html_url}">${repositories[i].name}</a>`;
        projectList.appendChild(project);
    }
+})*/
+fetch("https://api.github.com/users/adriana2020ca/repos")
+.then(response=> response.json())
+.then((data)=>{
+    console.log(data);
+    const projectSection=document.getElementById("projects");
+    const projectList=projectSection.querySelector("ul");
+    for(let i=0; i < data.length; i++ ){
+        const project=document.createElement("li");
+        project.innerHTML=`<a href="${data[i].html_url}">${data[i].name}</a>`;
+        projectList.appendChild(project)}
+    })
+.catch(error => {
+    alert(error)
 })
-
