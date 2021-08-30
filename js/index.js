@@ -8,7 +8,7 @@ let copywrite = document.createElement("p")
 console.log(copywrite)
 copywrite.innerHTML=`Adriana L. ${thisYear}`
 footer.appendChild(copywrite)
-let skills = ["Developing Wordpress sites", "Social Media", "Advertisement", "SEO"]
+let skills = ["Developing Wordpress sites", "Social Media", "Advertisement", "SEO", "HTML, CSS, JS"]
 let skillsSection=document.getElementById("skills")
 let skillsList=skillsSection.querySelector("ul")
 for (let i=0; i <skills.length; i++){
