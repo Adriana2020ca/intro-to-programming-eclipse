@@ -1,86 +1,143 @@
+
+
 html{
     
     
- }
- body {
-    margin: 0;
-    padding: 0;
-    color: rgb(76, 58, 141);
-    background: linear-gradient(white, rgb(241, 147, 92));
-    text-align: center;
-    font-family: Georgia;
-    font-size:xx-large;
+}
+body {
+   margin: 0;
+   padding: 0;
+   color: rgb(76, 58, 141);
+   background: linear-gradient(white, rgb(241, 147, 92));
+   text-align: center;
+   font-family: Georgia;
+   font-size:xx-large;
 }
 
 
 section {
-   padding-top: 30px;
+  padding-top: 30px;
 
 } 
 
 h1, h2 {
-   font-size: 50px;
-   font-weight: bold;
-   color: rgb(6, 78, 66);
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(6, 78, 66);
 
 
 }
 li {
-   list-style-type: none;
+  list-style-type: none;
 }
 section#aboutsection {
-   /* max-width: 80%; */
-   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* max-width: 80%; */
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 section#aboutsection > p {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 #container {
-   display:flex;
-	flex-wrap:wrap;
-	justify-content: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
 
 
-   /*background-color: blue; It gives color to the background of the block*/
+  /*background-color: blue; It gives color to the background of the block*/
 }
 .containerdiv {
-   background-color: rgb(249 198 168);
-    min-width: 100px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin: 20px;
+  background-color: rgb(249 198 168);
+   min-width: 100px;
+   padding: 5px;
+   border-radius: 10px;
+   border: 2px solid black;
+   margin: 20px;
 }
-input {
-   font-size: 60px;
-   margin-bottom: 2rem;
-  padding: 10px;
-}
+ input {
+
+  font-size: 50px ;
+  padding: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(249 198 168);
+  width: 100;
+   min-width: 100px;
+   border-radius: 10px;
+   border: 2px solid black;
+   margin: 20px;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ /*font-size: 50px;
+ margin-bottom: 2rem;
+ padding-left: ;: 15px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ /*border-top-color:rgb(190, 190, 190) ;
+  border-bottom-color: rgb(190, 154, 86);
+  border-left-color: rgb(228, 199, 118);  
+  border-right-color:rgb(245, 206, 133);         # Input is writen toguether with textarea.
+} */
+
 
 label {
-   color: black;
-   font-size:x-large;
-   
-}
-ul {
-   padding:0;
-}
+  color: black;
+  font-size: 40px;
+  vertical-align: center;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  margin-bottom: 2rem;
+   }
 
-textarea {
-   font-size: 80px ;
-   padding: 50px;
-   border-top: cornflowerblue;
-   border-bottom-color: cornflowerblue;
-   border-left-style: dashed;
-   border-right-style: rgb(70, 26, 192);
-   border-width: 50px;
+/*ul {
+  padding:0;
+}*/
+
+textarea{
+  font-size: 50px ;
+  padding: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(249 198 168);
+  width: 400;
+   /*min-width: 100px;*/
+   border-radius: 10px;
+   border: 2px solid black;
+   margin: 20px;
+  
+  /*border-top: cornflowerblue;*/
+  /*border-top-color:rgb(190, 154, 86) ;
+  border-bottom-color: rgb(190, 154, 86);
+  border-left-color: rgb(228, 199, 118);  
+  border-right-color:rgb(245, 206, 133); ;
+  /*border-right-style: rgb(79, 65, 117);
+  border-width: 30px;*/                           /* This are Frames for textarea, and input*/
+  
+  /*<textarea rows="8"></textarea>*/
+
 }
 button {
-   font-size: 50px;
-   padding: auto;
-   background-color: ;
+  font-size: 50px;
+  padding: auto;
+  /*background-color: ;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top-color:rgb(190, 154, 86) ;
+  border-bottom-color: rgb(190, 154, 86);
+  border-left-color: rgb(228, 199, 118);  
+  border-right-color:rgb(245, 206, 133); ;
+  /*border-right-style: rgb(79, 65, 117);*/
+  border-width: 30px;
 }
 .menu {
 display: flex;
@@ -89,18 +146,19 @@ gap: 40px;
 }
 @media (max-width: 1000px) {
 header{
-background-color: rgb(219, 247, 191);
- }
+background-color: rgb(229, 245, 214);
+}
 h2 {
-   font-size: 30px;
+  font-size: 30px;
 
 }
 
 }
 @media (max-width: 500px) {
 
- button{
-    font-size: 50px;
- };
+button{
+   font-size: 50px;
+   
+};
 
 }
